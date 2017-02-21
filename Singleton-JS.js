@@ -3,7 +3,7 @@
  */
 
 var Singleton = (function() {
-    
+
     var instance;
 
     // Приватные методы и свойства
@@ -23,7 +23,7 @@ var Singleton = (function() {
 
     return Singleton;
 
-})()
+})();
 
 console.log( new Singleton() === new Singleton() );
 
